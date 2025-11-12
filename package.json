@@ -1,8 +1,12 @@
 {
   "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.5",
     "dotenv": "^17.2.3",
     "express": "^5.1.0",
-    "mysql2": "^3.15.3"
+    "mysql2": "^3.15.3",
+    "validation": "^0.0.1",
+    "validator": "^13.15.23"
   },
   "name": "express",
   "version": "1.0.0",
@@ -15,10 +19,5 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "module",
-  "dependencies": {
-    "dotenv": "^17.2.3",
-    "express": "^5.1.0",
-    "mysql2": "^3.15.3"
-  }
+  "type": "module"
 }
